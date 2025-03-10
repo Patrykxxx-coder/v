@@ -1,0 +1,32 @@
+body {
+    background-color: gray; 
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: red;
+}
+
+/* Nieodwiedzony link */
+a:link {
+    color: yellow;
+}
+
+/* Odwiedzony link */
+a:visited {
+    color: orange;
+}
+
+/* Link po najechaniu kursorem */
+a:hover {
+    color: red;
+}
+
+/* Link aktywny (kliknięty) */
+a:active {
+    color: green;
+}
